@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test name="FFTest">
+  
+  <parameter name="app.browser" value="firefox"></parameter>
+  <parameter name="app.url" value="https://www.avis.com"></parameter>
+ 
+  <classes>
+  
+  <class name="testNGPractice.CrossBrowserTesting"></class>
+  
+  </classes>
+  </test>
+  
+  <test name="ChromeTest">
+  
+  <parameter name="app.browser" value="chrome"></parameter>
+  <parameter name="app.url" value="https://www.budget.com"></parameter>
+ 
+  <classes>
+  
+  <class name="testNGPractice.CrossBrowserTesting"></class>
+  
+  </classes>
+  </test>
+</suite> 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ABG]">
+  <test name="ABG-Regression(failed)">
+    <classes>
+      <class name="testcases.MyAvisProfileCreation">
+        <methods>
+          <include name="verifyMyAvisProfileCreatoin"/>
+        </methods>
+      </class> <!-- testcases.MyAvisProfileCreation -->
+      <class name="testcases.HomePageTC">
+        <methods>
+          <include name="homePage" invocation-numbers="0"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- testcases.HomePageTC -->
+    </classes>
+  </test> <!-- ABG-Regression(failed) -->
+</suite> <!-- Failed suite [ABG] -->

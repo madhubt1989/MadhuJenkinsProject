@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ABG">
+  <test name="ABG-Regression">
+    <classes>
+    
+      <class name="testcases.HomePageTC"/>
+      <class name="testcases.MyAvisProfileCreation"/>
+      
+    </classes>
+  </test> 
+
+</suite> 
+
